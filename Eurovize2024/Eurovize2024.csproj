@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="euroV.png" />
+    <None Remove="hudba\Aiko - Pedestal.wav" />
+    <None Remove="hudba\Elly - The Angel&amp;#039%3bs Share.wav" />
+    <None Remove="hudba\Elly - The Angels Share.wav" />
+    <None Remove="hudba\Gianna Lei - Starlet.wav" />
+    <None Remove="hudba\Good Enough.wav" />
+    <None Remove="hudba\MYDY - Red Flag Parade.wav" />
+    <None Remove="hudba\Out of My Mind.wav" />
+    <None Remove="hudba\Tom Sean - Dopamine.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="hudba\Aiko - Pedestal.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="hudba\Elly - The Angels Share.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="hudba\Gianna Lei - Starlet.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="hudba\Good Enough.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="hudba\MYDY - Red Flag Parade.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="hudba\Out of My Mind.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="hudba\Tom Sean - Dopamine.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="euroV.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

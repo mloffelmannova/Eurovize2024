@@ -1,0 +1,105 @@
+﻿<Window x:Class="Eurovize2024.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Eurovize2024"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="553" Width="412"
+        MinWidth="600" MaxWidth="1000"
+        MinHeight="450" MaxHeight="550">
+    
+    <StackPanel>
+        <Image Height="158" Source="euroV.png" Width="600"/>
+
+        <WrapPanel>
+            <Label Content="Aiko - Pedestal" Height="50"
+               FontSize="30" 
+               Foreground="DarkBlue"/>
+
+            <Button Name="btnAiko" Content="▶️" FontSize="36" Height="50"
+                Foreground="BlueViolet" Background="Aqua" Click="btnAiko_Click" Width="50"/>
+            
+            <Button Name="btnStop" Content="⏹️"
+                    Background="Red" Foreground="DarkRed" Width="50" FontSize="30" Click="btnStop_Click"/>
+        </WrapPanel>
+
+        
+        <WrapPanel>
+            <Label Content="Out of My Mind.wav" Height="50"
+               FontSize="30"
+               Foreground="DarkBlue"/>
+        
+        <Button Name="btnAiko1" Content="▶️" FontSize="36" Height="50"
+                Foreground="BlueViolet" Background="Aqua" Width="50" Click="btnAiko1_Click"/>
+            
+            <Button Name="btnStop1" Content="⏹️"
+                    Background="Red" Foreground="DarkRed" Width="50" FontSize="30" Click="btnStop1_Click"/>
+        </WrapPanel>
+        
+        
+        <WrapPanel>
+            <Label Content="Topm Sean- Dopamine.wav" Height="50"
+               FontSize="30"
+               Foreground="DarkBlue"/>
+
+            <Button Name="btnAiko2" Content="▶️" FontSize="36" Height="50"
+                Foreground="BlueViolet" Background="Aqua" Width="50" Click="btnAiko2_Click"/>
+            
+            <Button Name="btnStop2" Content="⏹️"
+                    Background="Red" Foreground="DarkRed" Width="50" FontSize="30" Click="btnStop2_Click"/>
+        </WrapPanel>
+        
+        
+        <WrapPanel>
+            <Label Content="MYDY- Red Flag Parade.wav" Height="50"
+               FontSize="30"
+               Foreground="DarkBlue"/>
+
+            <Button Name="btnAiko3" Content="▶️" FontSize="36" Height="50"
+                Foreground="BlueViolet" Background="Aqua" Width="50" Click="btnAiko3_Click"/>
+            
+            <Button Name="btnStop3" Content="⏹️"
+                    Background="Red" Foreground="DarkRed" Width="50" FontSize="30" Click="btnStop3_Click"/>
+        </WrapPanel>
+        
+        
+        <WrapPanel>
+            <Label Content="Good Enough.wav" Height="50"
+               FontSize="30"
+               Foreground="DarkBlue"/>
+
+            <Button Name="btnAiko4" Content="▶️" FontSize="36" Height="50"
+                Foreground="BlueViolet" Background="Aqua" Width="50" Click="btnAiko4_Click"/>
+            
+            <Button Name="btnStop4" Content="⏹️"
+                    Background="Red" Foreground="DarkRed" Width="50" FontSize="30" Click="btnStop4_Click"/>
+        </WrapPanel>
+
+
+        <WrapPanel>
+            <Label Content="Gianna Lei- Starlet.wav" Height="50"
+               FontSize="30"
+               Foreground="DarkBlue"/>
+
+            <Button Name="btnAiko5" Content="▶️" FontSize="36" Height="50"
+                Foreground="BlueViolet" Background="Aqua" Width="50" Click="btnAiko5_Click"/>
+            
+            <Button Name="btnStop5" Content="⏹️"
+                    Background="Red" Foreground="DarkRed" Width="50" FontSize="30" Click="btnStop5_Click"/>
+        </WrapPanel>
+
+
+        <WrapPanel>
+            <Label Content="Elly- The Angel´s Share.wav" Height="50"
+               FontSize="30"
+               Foreground="DarkBlue"/>
+
+            <Button Name="btnAiko6" Content="▶️" FontSize="36" Height="50"
+                Foreground="BlueViolet" Background="Aqua" Width="50" Click="btnAiko6_Click"/>
+            
+            <Button Name="btnStop6" Content="⏹️"
+                    Background="Red" Foreground="DarkRed" Width="50" FontSize="30" Click="btnStop6_Click"/>
+        </WrapPanel>
+    </StackPanel>
+</Window>
